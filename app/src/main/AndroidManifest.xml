@@ -12,10 +12,7 @@
         android:theme="@style/Theme.Binarch4viewmodel"
         tools:targetApi="31">
         <activity
-            android:name=".UsingViewModelActivity"
-            android:exported="false" />
-        <activity
-            android:name=".StudentActivity"
+            android:name=".FilmActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,10 +21,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".UsingViewModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentActivity"
             android:exported="true">
-
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
